@@ -13,7 +13,7 @@ export default defineUserConfig({
 
 
   head: [
-    ['link', {rel: 'icon', href: '/pictures/Icon1.webp'}]
+    ['link', {rel: 'icon', href: '/pictures/Icon2.webp'}]
   ]
   // Enable it with pwa
   // shouldPrefetch: false,
