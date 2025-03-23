@@ -9,13 +9,6 @@ tagline: Älora
 heroFullScreen: true
 bgImage: /pictures/Image1.png
 
-
-
-
-
-
-
-
 footer: Copyright © 2025 me
 ---
 

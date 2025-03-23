@@ -4,10 +4,10 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://bigsnowman10.github.io",
 
   author: {
-    name: "Mr.Hope",
+    name: "FelixSnowman",
     url: "https://mister-hope.com",
   },
 
