@@ -13,7 +13,7 @@ export default hopeTheme({
 
   logo: "/pictures/Image1.png" ,
 
- repo: "bigsnowman10/bigsnowman10.github.io",
+ repo: "BigSnowman10/BigSnowman10.github.io",
 
   docsDir: "src",
 
