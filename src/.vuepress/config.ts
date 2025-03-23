@@ -11,6 +11,10 @@ export default defineUserConfig({
 
   theme,
 
+
+  head: [
+    ['link', {rel: 'icon', href: '/pictures/Icon1.webp'}]
+  ]
   // Enable it with pwa
   // shouldPrefetch: false,
 });
