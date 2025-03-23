@@ -8,12 +8,12 @@ export default hopeTheme({
 
   author: {
     name: "FelixSnowman",
-    url: "https://mister-hope.com",
+    url: "https://bigsnowman10.github.io",
   },
 
   logo: "/pictures/Image1.png" ,
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "bigsnowman/bigsnowman10.github.io",
 
   docsDir: "src",
 
