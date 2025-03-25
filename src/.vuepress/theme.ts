@@ -11,7 +11,7 @@ export default hopeTheme({
     url: "https://bigsnowman10.github.io",
   },
 
-  logo: "/pictures/Image1.png" ,
+  logo: "/pictures/Icon2.webp" ,
 
  repo: "BigSnowman10/BigSnowman10.github.io",
 
@@ -39,7 +39,7 @@ export default hopeTheme({
   blog: {
     name: "FelixSnowman",
     avatar:"",
-    description: "A passionate Basketball",
+    description: "Walking Dictionary",
     intro: "/intro.html",
     medias: {
       //Baidu: "https://example.com",
