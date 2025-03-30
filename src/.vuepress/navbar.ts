@@ -41,8 +41,8 @@ export default navbar([
     ],
   },
   {
-    text: "About",
+    text: "Me",
     icon: "book",
-    link: "https://theme-hope.vuejs.press/",
+    link: "https://github.com/BigSnowman10/BigSnowman10.github.io",
   },
 ]);
