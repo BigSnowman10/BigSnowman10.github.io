@@ -166,9 +166,9 @@ export default hopeTheme({
     comment: {
        provider: "Waline",
        serverURL: "https://bigsnowman-comments.vercel.app",
-       comment:true,
-       pageview:true,
-       noCopyright:true,
+       comment: true,
+       pageview: true,
+       noCopyright: true,
        dark:"auto"
      },
 
