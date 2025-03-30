@@ -4,38 +4,34 @@ export default navbar([
   "/",
   "/demo/",
   {
-    text: "Posts",
+    text: "Coding",
     icon: "pen-to-square",
     prefix: "/posts/",
     children: [
       {
-        text: "Apple",
+        text: "Ones",
         icon: "pen-to-square",
-        prefix: "apple/",
+        prefix: "TheOnes/",
         children: [
-          { text: "Apple1", icon: "pen-to-square", link: "1" },
-          { text: "Apple2", icon: "pen-to-square", link: "2" },
-          "3",
-          "4",
+          { text: "TheFirst", icon: "pen-to-square", link: "1" },
+          { text: "TheSecond", icon: "pen-to-square", link: "2" },
         ],
       },
       {
-        text: "Banana",
+        text: "More",
         icon: "pen-to-square",
-        prefix: "banana/",
+        prefix: "more-ones/",
         children: [
           {
-            text: "Banana 1",
+            text: "TheMore",
             icon: "pen-to-square",
             link: "1",
           },
           {
-            text: "Banana 2",
+            text: "TheEcenMore",
             icon: "pen-to-square",
             link: "2",
-          },
-          "3",
-          "4",
+          },  
         ],
       },
       { text: "Cherry", icon: "pen-to-square", link: "cherry" },
@@ -45,7 +41,7 @@ export default navbar([
     ],
   },
   {
-    text: "V2 Docs",
+    text: "About",
     icon: "book",
     link: "https://theme-hope.vuejs.press/",
   },
