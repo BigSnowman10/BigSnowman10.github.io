@@ -4,7 +4,7 @@ export default navbar([
   "/", 
   {
     text: "Thing1",
-    icon: "fa-solid fa-face-smile",
+    icon: "face-smile",
     link:  "/posts/cherry.md", 
   },
 
