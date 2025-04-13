@@ -16,7 +16,6 @@ lastUpdated: true
 editLink: false
 backToTop: true
 toc: true
-
 ---
 
 ## 1. 标题编写
@@ -105,10 +104,42 @@ toc: true
 
 :::
 
+## 3. 链接
 
+::: md-demo 链接
 
+`[链接名称](链接)`
 
+[link](https://bigsnowman10.github.io)
 
+:::
 
+## 4.图片
+
+::: md-demo
+
+`![图片]（图片链接地址）`
+
+![image-20250413121127398](blog-first-day.assets/image-20250413121127398.png)
+
+![image-20250413121726920](blog-first-day.assets/image-20250413121726920.png)
+
+:::
+
+## 5.有序序列
+
+::: md-demo
+
+1. 小明
+
+2. 小红
+
+3. 小飞
+    1. 你好 1
+    2. 你好 2
+    3. 你好 3
+4. 小鸟
+
+:::
 
  
