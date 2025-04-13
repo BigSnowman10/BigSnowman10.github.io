@@ -4,6 +4,10 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
+
+  toc: {
+    levels: [1,6],
+  },
   hostname: "https://bigsnowman10.github.io",
 
   author: {
