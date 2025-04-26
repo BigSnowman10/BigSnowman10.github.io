@@ -18,21 +18,21 @@ backToTop: true
 toc: true
 ---
 
-## 1. 标题编写
+## 1. Titles
 
 ::: md-demo 演示
 
-# 标题1
+# Title1
 
-## 标题2
+## Title2
 
-### 标题3
+### Title3
 
-#### 标题4
+#### Title4
 
-##### 标题5
+##### Title5
 
-###### 标题6
+###### Title6
 
 
 
@@ -40,9 +40,9 @@ toc: true
 
 :::
 
-## 2.代码块
+## 2.Code Block
 
-::: md-demo 代码块添加语法演示
+::: md-demo Code Block Adding Syntax Demo
 
 
 
@@ -104,21 +104,21 @@ toc: true
 
 :::
 
-## 3. 链接
+## 3. links
 
 ::: md-demo 链接
 
-`[链接名称](链接)`
+`[link name ](link)`
 
 [link](https://bigsnowman10.github.io)
 
 :::
 
-## 4.图片
+## 4.picture 
 
 ::: md-demo
 
-`![图片]（图片链接地址）`
+`![picture ]（adress of picture link）`
 
 ![image-20250413121127398](blog-first-day.assets/image-20250413121127398.png)
 
@@ -126,23 +126,23 @@ toc: true
 
 :::
 
-## 5.有序序列
+## 5.ordered sequence
 
 ::: md-demo
 
-1. 小明
+1. me
 
-2. 小红
+2. you
 
-3. 小飞
-    1. 你好 1
-    2. 你好 2
-    3. 你好 3
-4. 小鸟
+3. him
+    1. wow1
+    2. wow2
+    3. wow3
+4. little man 
 
 :::
 
-##  6.无序序列
+##  6.disordered sequence
 
 ::: md-demo
 
@@ -151,5 +151,22 @@ toc: true
     - folgendem
 - Bahnhofstrasse
     - meh
+
+:::
+
+## 7. Mathematical Formulas 
+
+::: md-demo
+
+Using the \$ at the front and back we can make it a mathematical term
+
+$$
+x a b
+$$
+
+$$
+33f
+$$
+
 
 :::
