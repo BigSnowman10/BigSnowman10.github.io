@@ -204,7 +204,7 @@ $$
 
 :::
 
-### 9.Tabs
+## 9.Tabs
 
 :::: md-demo
 
@@ -216,8 +216,6 @@ There will be things in here
 
 hello there 
 
-:::
-
 @tab Tab2
 
 Heute gibts Freibier 
@@ -225,13 +223,197 @@ Heute gibts Freibier
 1. B
 2. c
 3. f
-4. G
 
 @tab TabWithA
+
+:::
+
+
 $$
 b+2
 $$
 
 
 ::::
+
+## 10.Seperating Codes
+
+:::: md-demo
+
+::: code-tabs
+
+@tab Code1
+
+```python
+print("This is Code1")
+```
+
+@tab Code2
+
+```python
+a=1
+b=2
+b=a+b
+```
+
+
+
+:::
+
+
+
+::: code-tabs
+
+@tab Python
+
+```python
+a, b, c = 1, 2, 3
+```
+
+@pnpm
+
+```pnpm 
+pnpm add -D 组件名称
+```
+
+
+
+::::
+
+
+
+## 11.Code in a line
+
+::: md-demo
+
+pnpm install xxxx
+
+`pnpm install xxxx`
+
+:::
+
+## 12.reminder container
+
+:::: md-demo
+
+::: important
+
+important things
+
+:::
+
+::: info 
+
+Information
+
+:::
+
+::: note
+
+What is this？
+
+::: 
+
+:::  tip
+
+tips, halt
+
+:::
+
+::: warning
+
+ACHTUNG
+
+:::
+
+::: caution
+
+nasser Boden
+
+:::
+
+::: details
+
+Ja das wichtig 
+
+:::
+
+
+
+::::
+
+## 13.Signs
+
+::: md-demo
+
+Hello，==William==。
+
+Hello，!!William!!
+
+:::
+
+
+
+## 14.Custom Alignment
+
+::: md-demo
+
+::: left
+
+on the left
+
+:::
+
+::: center
+
+in the middle
+
+:::
+
+::: right
+
+on the right 
+
+:::
+
+::: justify
+
+nothing
+
+:::
+
+::::
+
+
+
+:::: caution
+
+If ANYTHING happens 
+
+::: center 
+
+don't panic
+
+:::
+
+::::
+
+## 15.Article encryption
+
+file: `theme.ts`
+
+```typescript
+encrypt: {
+    config: {
+        // This encrypts the entire guide directory and both passwords are available
+        "/guide/": ["1234", "5678"],
+        // this will only encript /config/page.html
+        "/config/page.html": ["1234", "1234343"],
+    }
+}
+```
+
+
+
+
 
