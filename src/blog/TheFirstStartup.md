@@ -1,8 +1,8 @@
 ---
-title:TheFirstStartup
+title: TheFirstStartup
 icon: blog
 date: 2025-04-27 03:45:35
-author:FelixSnowman
+author: FelixSnowman
 isOriginal: true
 sticky: false
 star: false
