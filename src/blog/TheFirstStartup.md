@@ -20,7 +20,7 @@ toc: true
 
 
 
-:::md-demo
+::: md-demo
 
 ## Start-up
 

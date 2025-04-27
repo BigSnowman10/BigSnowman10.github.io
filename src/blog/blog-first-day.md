@@ -158,6 +158,8 @@ toc: true
 
 ::: md-demo
 
+### 7.1基础演示
+
 Using the \$ at the front and back we can make it a mathematical term
 
 $$
@@ -169,4 +171,67 @@ $$
 $$
 
 
+
+### 7.2 行内语法
+
+Euler's identity $e^{i\pi}+1=0$ is a beautiful formula in $\mathbb{R}^2$.
+
+
+
+### 7.3 显示语法
+
+$$
+\frac {\partial^r} {\partial \omega^r} \left(\frac {y^{\omega}} {\omega}\right)
+= \left(\frac {y^{\omega}} {\omega}\right) \left\{(\log y)^r + \sum_{i=1}^r \frac {(-1)^i r \cdots (r-i+1) (\log y)^{r-i}} {\omega^i} \right\}
+$$
+
 :::
+
+- [TeX 教程](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes)
+
+- [Tex 速查表](https://mdit-plugins.github.io/zh/tex.html#tex-tutorial)
+
+
+
+## 8. 任务列表
+
+::: md-demo
+
+- [ ] 
+- [x] 
+
+`- [x] `
+
+:::
+
+### 9.Tabs
+
+:::: md-demo
+
+::: tabs 
+
+@tab Tab1
+
+There will be things in here
+
+hello there 
+
+:::
+
+@tab Tab2
+
+Heute gibts Freibier 
+
+1. B
+2. c
+3. f
+4. G
+
+@tab TabWithA
+$$
+b+2
+$$
+
+
+::::
+
