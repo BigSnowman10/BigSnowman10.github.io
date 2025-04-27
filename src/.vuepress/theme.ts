@@ -16,6 +16,7 @@ export default hopeTheme({
   },
 
   logo: "/pictures/Icon2.webp" ,
+  changelog: true,
 
  repo: "BigSnowman10/BigSnowman10.github.io",
 
@@ -33,9 +34,9 @@ export default hopeTheme({
 
   encrypt: {
     config: {
-      "/demo/encrypt.html": {
-        hint: "Password: 1234",
-        password: "1234",
+      "/blog": {
+        hint: "请输入密码",
+        password: "felix",
       },
     },
   },
