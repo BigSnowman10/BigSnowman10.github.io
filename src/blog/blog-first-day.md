@@ -16,6 +16,7 @@ lastUpdated: true
 editLink: false
 backToTop: true
 toc: true
+changelog: true
 ---
 
 ## 1. Titles
