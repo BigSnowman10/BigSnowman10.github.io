@@ -356,7 +356,7 @@ Hello，!!William!!
 
 ## 14.Custom Alignment
 
-::: md-demo
+:::: md-demo
 
 ::: left
 
