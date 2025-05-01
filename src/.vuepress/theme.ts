@@ -32,14 +32,14 @@ export default hopeTheme({
 
   displayFooter: true,
 
-  encrypt: {
-    config: {
-      "/blog": {
-        hint: "请输入密码",
-        password: "felix",
-      },
-    },
-  },
+  // encrypt: {
+  //   config: {
+  //     "/blog": {
+  //       hint: "请输入密码",
+  //       password: "felix",
+  //     },
+  //   },
+  // },
 
   blog: {
     name: "FelixSnowman",
