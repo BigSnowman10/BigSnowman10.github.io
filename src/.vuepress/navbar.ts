@@ -8,13 +8,13 @@ export default navbar([
     link:  "#"
   },
   {
-    text: "Thing2",
-    icon: "truck",
+    text: "Understanding Python",
+    icon: "python",
     prefix: "/posts/",
     children: [
-      "#",
-      "#",
-      "#",
+      "Python1",
+      "Variables",
+      "VirtualEnvironments",
       "#",
       {text: "Thing3", icon: "bell", link: "#"},
     ]
