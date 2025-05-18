@@ -10,11 +10,11 @@ export default navbar([
   {
     text: "Understanding Python",
     icon: "python",
-    prefix: "/posts/",
+    prefix: "/Python/",
     children: [
-      "Python1",
-      "Variables",
-      "VirtualEnvironments",
+      "Python1.md",
+      "Variables.md",
+      "VirtualEnvironments.md",
       "#",
       {text: "Thing3", icon: "bell", link: "#"},
     ]

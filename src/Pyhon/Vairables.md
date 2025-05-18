@@ -200,3 +200,120 @@ print (a,b,c)
 1 1 1
 ```
 
+### 4.2 Multiple Variable definition at once
+
+```python
+a,b,c = 1,2,3
+print(a,b,c)
+
+
+#output:
+1 2 3
+```
+
+
+
+![image-20250518110819382](Vairables.assets/image-20250518110819382.png)
+
+Solutions:
+
+```python
+Austin_cup = "Coke"  # 该赋值可以理解为从饮料瓶倒果汁的过程
+Jaden_cup = "juice"  # 该赋值可以理解为从饮料瓶倒果汁的过程
+print("Austin 杯子现在装的饮料", Austin_cup)
+print("Jaden 杯子现在装的饮料", Jaden_cup)
+# ---------------
+# 这里编写什么代码才能使上下相同输出的 print 代码，输出的结果是交换过来的。
+# ---------------
+Cup3 = Austin_cup
+Austin_cup = Jaden_cup
+Jaden_cup = Cup3
+
+print("交换之后......")
+print("Austin 杯子现在装的饮料", Austin_cup)
+print("Jaden 杯子现在装的饮料", Jaden_cup)
+
+# ---目标输出结果---
+
+```
+
+```python
+Austin_cup = "Coke"  # 该赋值可以理解为从饮料瓶倒果汁的过程
+Jaden_cup = "juice"  # 该赋值可以理解为从饮料瓶倒果汁的过程
+print("Austin 杯子现在装的饮料", Austin_cup)
+print("Jaden 杯子现在装的饮料", Jaden_cup)
+# ---------------
+# 这里编写什么代码才能使上下相同输出的 print 代码，输出的结果是交换过来的。
+# ---------------
+Austin_cup, Jaden_cup = Jaden_cup, Austin_cup
+
+print("交换之后......")
+print("Austin 杯子现在装的饮料", Austin_cup)
+print("Jaden 杯子现在装的饮料", Jaden_cup)
+
+# ---目标输出结果---
+
+```
+
+The question comes on why the second option also works
+
+It solely relies on the fact of how python runs its codes.
+
+It is up to down, right to left. 
+
+That means that first the values are calculated and in the last step they are pasted to the variables. 
+
+## 5.  Variable naming rules 
+
+1. Variable names are a combination of uppercase latin letters and numbers, while they are not allowed to start with a number
+2. System keywords are not allowed 
+3. Variable names ARE case sensitive
+4. Variables cannot contain spaces but they can contain underscores
+5. Pythons built in Python function names cannot be used
+
+```python
+n = 1
+N = 2
+print(n)
+
+#output
+1
+```
+
+```python
+1name = "bob"
+name1 = "bob"
+
+# you are not able to start a variable with a digit as Python thinks it is an integer
+```
+
+```python
+user_name = "hello"
+username ="hello"
+_username = "hello"
+
+# you are allowed to use the underscore whereever you want in the variable name 
+#its usage is to make ones code clearer
+```
+
+```python
+print = 123
+print(print)
+
+# you are simply not able to do this or at least it is not recommended as python cannot differentiate the
+# that means you are able to use one of these operators if you do not use them in the way you are supposed to 
+```
+
+```python
+as = "hello" # this is not possible 
+
+#possible solutions
+As = "Hello"
+aS ="Hello"
+AS = "Hello"
+_as = "Hello"
+
+# it is forbidden to use these built in function names as variable names 
+# Though its name is then not the same anymore you can alter the cases or alternatively add an underscore
+```
+
